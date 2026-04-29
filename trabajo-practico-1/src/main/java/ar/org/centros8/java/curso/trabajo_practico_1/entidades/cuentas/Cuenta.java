@@ -9,8 +9,8 @@ import lombok.ToString;
 @Setter
 @ToString
 public abstract class Cuenta {
-    private final int nroDeCuenta;
-    private final Cliente clienteAsociado;
+    private int nroDeCuenta;
+    private Cliente clienteAsociado;
     private double saldo;
 
     public Cuenta(int nroDeCuenta, Cliente clienteAsociado) {
