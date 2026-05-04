@@ -18,9 +18,5 @@ public class ClienteEmpresa extends Cliente{
         this.cuit = cuit;
     }
 
-    // @Override
-    // public void saludar() {
-    //    System.out.println("Bienvenido " + getNombreFantasia());
-    // }
-    
+
 }
