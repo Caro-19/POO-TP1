@@ -13,5 +13,4 @@ import lombok.ToString;
 public abstract class Cliente{
     private int nroDeCliente;
 
-    // public abstract void saludar (); -> Se utilizo para verificar que todo anda correctamente.
 }
