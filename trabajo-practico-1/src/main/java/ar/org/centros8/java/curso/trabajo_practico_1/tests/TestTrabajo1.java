@@ -14,11 +14,9 @@ public class TestTrabajo1 {
         System.out.println("######################Test de la clase ClienteIndividual######################");
             ClienteIndividual cliente1 = new ClienteIndividual(101, "Romina", "Arrayan", "23819074");
             System.out.println(cliente1);
-            // cliente1.saludar();
 
             ClienteIndividual cliente2 = new ClienteIndividual(140, "Ricardo", "Montaner", "43944177");
             System.out.println(cliente2);
-            // cliente2.saludar();
         System.out.println("######################Clase ClienteIndividual funciona correctamente######################\n");
 
 
