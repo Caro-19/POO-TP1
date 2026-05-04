@@ -1,5 +1,6 @@
 package ar.org.centros8.java.curso.trabajo_practico_1.entidades.cuentas;
 
+import ar.org.centros8.java.curso.trabajo_practico_1.entidades.cheques.Cheque;
 import ar.org.centros8.java.curso.trabajo_practico_1.entidades.clientes.Cliente;
 import lombok.Getter;
 import lombok.Setter;
@@ -27,6 +28,7 @@ public class CuentaCorriente extends Cuenta{
             System.out.println("No puede ingresar un monto negativo");  
         }else{
             setSaldo(getSaldo() + monto);
+        }
     }
 
     @Override

@@ -2,10 +2,10 @@ package ar.org.centros8.java.curso.trabajo_practico_1.tests;
 
 import java.time.LocalDate;
 
+import ar.org.centros8.java.curso.trabajo_practico_1.entidades.cheques.Cheque;
 import ar.org.centros8.java.curso.trabajo_practico_1.entidades.clientes.ClienteEmpresa;
 import ar.org.centros8.java.curso.trabajo_practico_1.entidades.clientes.ClienteIndividual;
 import ar.org.centros8.java.curso.trabajo_practico_1.entidades.cuentas.CajaDeAhorro;
-import ar.org.centros8.java.curso.trabajo_practico_1.entidades.cuentas.Cheque;
 import ar.org.centros8.java.curso.trabajo_practico_1.entidades.cuentas.CuentaConvertibilidad;
 import ar.org.centros8.java.curso.trabajo_practico_1.entidades.cuentas.CuentaCorriente;
 
