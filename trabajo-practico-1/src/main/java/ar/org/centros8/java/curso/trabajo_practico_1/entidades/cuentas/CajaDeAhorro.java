@@ -24,7 +24,10 @@ public class CajaDeAhorro extends Cuenta {
      * @param monto -> Monto a depositar.
      */
     public void depositar(double monto) {
-        setSaldo(getSaldo() + monto);
+        if (monto < 0) {
+            System.out.println("No puede ingresar un monto negativo");  
+        }else{
+            setSaldo(getSaldo() + monto);
     }
 
     @Override
@@ -33,7 +36,10 @@ public class CajaDeAhorro extends Cuenta {
      * @param monto -> Monto a extraer.
      */
     public void extraer(double monto) {
-        setSaldo(getSaldo() - monto);
+        if (monto < 0) {
+            System.out.println("No puede ingresar un monto negativo");  
+        }else{
+            setSaldo(getSaldo() - monto);
     }
 
     /**
