@@ -23,11 +23,9 @@ public class TestTrabajo1 {
         System.out.println("######################Test de la clase ClienteEmpresa######################");
             ClienteEmpresa empresa1 = new ClienteEmpresa(789, "Tremendo", "30-23123467-4");
             System.out.println(empresa1);
-            // empresa1.saludar();
 
             ClienteEmpresa empresa2 = new ClienteEmpresa(123, "47 Street", "30-45678904-4");
             System.out.println(empresa2);
-            // empresa2.saludar();
         System.out.println("######################Clase ClienteEmpresa funciona correctamente######################\n");
 
 
