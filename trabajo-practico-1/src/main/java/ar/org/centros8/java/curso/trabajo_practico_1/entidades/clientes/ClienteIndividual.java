@@ -20,12 +20,4 @@ public class ClienteIndividual extends Cliente{
         this.dni = dni;
     }
 
-    // @Override
-    // public void saludar() {
-    //     System.out.println("Bienvenido cliente " + getNombre() );
-    // }
-
-   
-
-
 }
