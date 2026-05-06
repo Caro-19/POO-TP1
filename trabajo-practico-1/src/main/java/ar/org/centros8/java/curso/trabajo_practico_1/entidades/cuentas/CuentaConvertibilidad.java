@@ -1,12 +1,8 @@
 package ar.org.centros8.java.curso.trabajo_practico_1.entidades.cuentas;
 
 import ar.org.centros8.java.curso.trabajo_practico_1.entidades.clientes.ClienteEmpresa;
-import lombok.Getter;
-import lombok.Setter;
 import lombok.ToString;
 
-@Getter
-@Setter
 @ToString(callSuper = true)
 public class CuentaConvertibilidad extends CuentaCorriente {
     private double saldoEnDolares;
@@ -28,11 +24,10 @@ public class CuentaConvertibilidad extends CuentaCorriente {
         if (monto <= getSaldo()){
             setSaldo(getSaldo() - monto);
             saldoEnDolares = Math.round((saldoEnDolares + (monto / tasaDeConversion)) * 100.0) / 100.0;
-            return saldoEnDolares;
         }else{
             System.out.println("Saldo en pesos insuficiente para realizar la operacion");
-            return saldoEnDolares;
         }
+        return saldoEnDolares;
     }
 
     /**
@@ -46,11 +41,10 @@ public class CuentaConvertibilidad extends CuentaCorriente {
         if (monto <= saldoEnDolares){
             saldoEnDolares = Math.round((saldoEnDolares - monto)* 100.0) / 100.0;
             setSaldo(getSaldo() + (monto * tasaDeConversion));
-            return getSaldo();
         }else{
             System.out.println("Saldo en dolares insuficiente para realizar la operacion");
-            return getSaldo();
         }
+        return getSaldo();
     }
 
     /**

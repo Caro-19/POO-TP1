@@ -24,11 +24,13 @@ public class CuentaCorriente extends Cuenta{
      * @param monto -> Monto a depositar.
      */
     public void depositar(double monto){
-          if (monto < 0) {
-            System.out.println("No puede ingresar un monto negativo");  
+
+        if (monto < 0) {
+            System.out.println("Recuerde que el monto no puede ser un numero negativo"); 
         }else{
             setSaldo(getSaldo() + monto);
         }
+        
     }
 
     @Override

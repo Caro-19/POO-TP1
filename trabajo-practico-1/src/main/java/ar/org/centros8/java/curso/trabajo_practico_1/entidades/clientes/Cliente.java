@@ -11,6 +11,7 @@ import lombok.ToString;
 @AllArgsConstructor
 
 public abstract class Cliente{
-    private int nroDeCliente;
+    private final int nroDeCliente;
 
+    // public abstract void saludar (); -> Se utilizo para verificar que todo anda correctamente.
 }

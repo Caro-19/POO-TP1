@@ -25,7 +25,7 @@ public class CajaDeAhorro extends Cuenta {
      */
     public void depositar(double monto) {
         if (monto < 0) {
-            System.out.println("No puede ingresar un monto negativo");  
+            System.out.println("No puede ingresar un monto negativo"); 
         }else{
             setSaldo(getSaldo() + monto);
         }
@@ -38,7 +38,9 @@ public class CajaDeAhorro extends Cuenta {
      */
     public void extraer(double monto) {
         if (monto < 0) {
-            System.out.println("No puede ingresar un monto negativo");  
+            System.out.println("No puede ingresar un monto negativo"); 
+        }else if (monto > (getSaldo())){
+            System.out.println("Saldo insuficiente");
         }else{
             setSaldo(getSaldo() - monto);
         }
