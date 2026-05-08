@@ -17,7 +17,6 @@ public class TestTrabajo1 {
 
         ClienteIndividual cliente2 = new ClienteIndividual(140, "Ricardo", "Montaner", "43944177");
         System.out.println(cliente2);
-        // cliente2.saludar();
         System.out.println("######################Clase ClienteIndividual funciona correctamente######################\n");
 
 
