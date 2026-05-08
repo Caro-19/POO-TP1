@@ -25,7 +25,7 @@ El modelo se basa en una jerarquía de clases diseñada para la máxima reutiliz
 
 * **Java 17+**
 * **Lombok:** Para reducir el código repetitivo mediante anotaciones como `@Getter`, `@Setter` y `@ToString`.
-* [cite_start]**UML:** Para el modelado visual de la arquitectura. [cite: 30]
+* **UML:** Para el modelado visual de la arquitectura.
 
 ## 📐 Diagrama de Clases
 
