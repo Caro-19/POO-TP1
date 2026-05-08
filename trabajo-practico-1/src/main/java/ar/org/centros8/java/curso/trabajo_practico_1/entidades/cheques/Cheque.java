@@ -1,0 +1,19 @@
+package ar.org.centros8.java.curso.trabajo_practico_1.entidades.cheques;
+
+import java.time.LocalDate;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.ToString;
+
+@Getter
+@ToString
+@AllArgsConstructor 
+
+public class Cheque {
+    private double monto;
+    private String bancoEmisor;
+    private final LocalDate fechaDePago;
+}
+
+
